@@ -22,7 +22,7 @@ const { TeamsConversationBot } = require('./bots/teamsConversationBot');
 // See https://aka.ms/about-bot-adapter to learn more about adapters.
 const adapter = new BotFrameworkAdapter({
     appId: process.env.MicrosoftAppId,
-    appPassword: process.env.MicrosoftAppPassword
+    appPassword: 'FN^:nFwW$7KF)}5E40!(5Mk}BmVSoo'
 });
 
 adapter.onTurnError = async (context, error) => {
